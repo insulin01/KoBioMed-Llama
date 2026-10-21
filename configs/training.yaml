@@ -1,0 +1,14 @@
+# KoBioMed-Llama training configuration (placeholder — under active development)
+model:
+  base_model: ""          # e.g. Llama-3.x base checkpoint
+  trust_remote_code: false
+training:
+  output_dir: "checkpoints/kobiomed-llama"
+  num_epochs: 3
+  per_device_batch_size: 2
+  learning_rate: 2.0e-5
+  lora_r: 16
+  lora_alpha: 32
+data:
+  train_files: []         # list of JSONL files
+  eval_files: []
