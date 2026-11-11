@@ -27,12 +27,7 @@ context (``prompts.validate_citations``).
 
 Example usage::
 
-    python prepare_data.py \
-        --chunks data/chunks.jsonl \
-        --seed-qa data/seed_qa.jsonl \
-        --out-train data/train.jsonl \
-        --out-val data/val.jsonl \
-        --val-fraction 0.1
+    python prepare_data.py --chunks data/chunks.jsonl --seed-qa data/seed_qa.jsonl --out-train data/train.jsonl --out-val data/val.jsonl --val-fraction 0.1
 """
 
 from __future__ import annotations
