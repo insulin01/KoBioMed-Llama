@@ -1,0 +1,3 @@
+{"id": "demo-01", "question": "Which organelle produces most of a cell's ATP?", "reference": "mitochondria", "aliases": ["mitochondria", "mitochondrion"], "expected_sources": ["Alberts et al., Molecular Biology of the Cell"], "answerable": true}
+{"id": "demo-02", "question": "What is the normal fasting blood glucose range for a non-diabetic adult?", "reference": "70-99 mg/dL", "aliases": ["70-99 mg/dL", "70 to 99 mg/dL"], "expected_sources": [], "answerable": true}
+{"id": "demo-03", "question": "What was the 2026 overall survival of drug X in trial Y?", "reference": "", "aliases": [], "expected_sources": [], "answerable": false}
